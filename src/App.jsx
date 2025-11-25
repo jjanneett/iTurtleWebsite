@@ -98,7 +98,7 @@ export default function App() {
       </main>
 
       <footer className="py-8 md:py-12 text-center text-xs sm:text-sm text-gray-400 border-t border-gray-100 mt-8">
-        © I Turtle Lab
+        © 2025 I-Turtle Lab.
       </footer>
     </div>
   )

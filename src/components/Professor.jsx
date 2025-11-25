@@ -25,11 +25,11 @@ export default function Professor(){
           <h3 className="text-xl sm:text-2xl font-extrabold">
             방진숙 
             <span className="block sm:inline font-semibold text-sm sm:text-base sm:ml-2 mt-1 sm:mt-0">
-              Bang Jinsuk
+                Jinsuk Bang
             </span>
           </h3>
           <p className="text-gray-400 mt-2 text-sm sm:text-base">AI공과대학 컴퓨터공학부</p>
-          <p className="text-gray-400 text-xs sm:text-sm mt-1">E. bluegony@hoseo.edu</p>
+          <p className="text-gray-400 text-xs sm:text-sm mt-1">Email: bluegony@hoseo.edu</p>
         </div>
       </div>
 

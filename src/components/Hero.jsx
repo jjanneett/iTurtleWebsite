@@ -24,7 +24,7 @@ export default function Hero(){
 
       <div className="w-full text-center md:text-left mb-12 md:mb-48 transition-transform duration-500 ease-out" style={{transform: `translateY(${translateY * 0.6}px)`, opacity: 0.5 + active * 0.5}}>
         <p className="text-lg sm:text-xl md:text-2xl font-normal container-wide px-4 md:px-0">
-          I Turtle Lab은 AI 기반으로 연구를 진행하고 있습니다.
+          I-Turtle Lab은 AI 기반으로 연구를 진행하고 있습니다.
         </p>
       </div>
     </section>
