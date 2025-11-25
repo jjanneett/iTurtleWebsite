@@ -72,27 +72,27 @@ export default function App() {
       <main>
         <Hero />
 
-        <section id="about" className="py-12 sm:py-16 md:py-20 container-wide">
+        <section id="about" className="py-16 sm:py-20 md:py-24 container-wide">
           <LabIntro />
         </section>
 
-        <section id="professor" className="py-12 sm:py-16 md:py-20 lg:py-24 container-wide">
+        <section id="professor" className="py-16 sm:py-20 md:py-24 lg:py-28 container-wide">
           <Professor />
         </section>
 
-        <section id="projects" className="py-12 sm:py-14 md:py-16 container-wide">
+        <section id="projects" className="py-14 sm:py-20 md:py-24 container-wide">
           <Projects />
         </section>
 
-        <section id="researchers" className="py-12 sm:py-14 md:py-16 container-wide">
+        <section id="researchers" className="py-14 sm:py-20 md:py-24 container-wide">
           <Researchers />
         </section>
 
-        <section id="publications" className="py-12 sm:py-14 md:py-16 container-wide">
+        <section id="publications" className="py-14 sm:py-20 md:py-24 container-wide">
           <Publications />
         </section>
 
-        <section id="contact" className="py-12 sm:py-14 md:py-16 container-wide">
+        <section id="contact" className="py-14 sm:py-20 md:py-24 container-wide">
           <Contact />
         </section>
       </main>
