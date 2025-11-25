@@ -18,9 +18,9 @@ export default function LabIntro(){
         <div className="lg:col-span-2 space-y-5">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold">About the Lab</h2>
           <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              I-Turtle Lab은 복잡하고 현실적인 환경에서도 살아남는 응용 AI를 탐구합니다.<br></br>
+              I-Turtle Lab은 복잡하고 현실적인 환경에서도 살아남는 응용 AI를 탐구합니다.
               빠른 실험과 엄격한 검증을 통해 새로운 아이디어가
-              사용자에게 신뢰할 수 있는 <br></br>시스템이 될 수 있도록 합니다.
+              사용자에게 신뢰할 수 있는 시스템이 될 수 있도록 합니다.
           </p>
         </div>
 
@@ -30,7 +30,7 @@ export default function LabIntro(){
           <div className="relative space-y-4">
             <div className="text-sm uppercase tracking-widest text-white/70">Research Snapshot</div>
             <div className="text-2xl sm:text-3xl font-bold leading-tight">
-                사람, 제품, 파트너십을 위한 신뢰할 수 있는 AI를<br></br>구축합니다.
+                사람, 제품, 파트너십을 위한 신뢰할 수 있는 AI를 구축합니다.
             </div>
           </div>
         </div>

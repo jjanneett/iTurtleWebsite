@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div>
       <header className="py-4 md:py-6 container-wide flex justify-between items-center relative">
-        <div className="text-lg font-bold">I Turtle Lab</div>
+        <div className="text-lg font-bold">I-Turtle Lab</div>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 text-sm text-gray-600">
