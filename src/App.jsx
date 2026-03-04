@@ -5,7 +5,6 @@ import Professor from './components/Professor'
 import Projects from './components/Projects'
 import Researchers from './components/Researchers'
 import Publications from './components/Publications'
-import Contact from './components/Contact'
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,7 +12,7 @@ export default function App() {
   return (
     <div>
       <header className="py-4 md:py-6 container-wide flex justify-between items-center relative">
-        <div className="text-lg font-bold">I-Turtle Lab</div>
+        <div className="text-lg tracking-">I-Turtle Lab</div>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 text-sm text-gray-600">
@@ -36,10 +35,6 @@ export default function App() {
           <a href="#publications" className="hover:text-gray-900 relative group">
             Publications
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500"></span>
-          </a>
-          <a href="#contact" className="hover:text-gray-900 relative group">
-            Contact
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-500"></span>
           </a>
         </nav>
 
@@ -64,7 +59,6 @@ export default function App() {
             <a href="#projects" className="block py-3 px-4 text-gray-600" onClick={() => setIsMenuOpen(false)}>Projects</a>
             <a href="#researchers" className="block py-3 px-4 text-gray-600" onClick={() => setIsMenuOpen(false)}>Researchers</a>
             <a href="#publications" className="block py-3 px-4 text-gray-600" onClick={() => setIsMenuOpen(false)}>Publications</a>
-            <a href="#contact" className="block py-3 px-4 text-gray-600" onClick={() => setIsMenuOpen(false)}>Contact</a>
           </div>
         </nav>
       </header>
@@ -90,10 +84,6 @@ export default function App() {
 
         <section id="publications" className="py-14 sm:py-20 md:py-24 container-wide">
           <Publications />
-        </section>
-
-        <section id="contact" className="py-14 sm:py-20 md:py-24 container-wide">
-          <Contact />
         </section>
       </main>
 
